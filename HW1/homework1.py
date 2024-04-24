@@ -14,6 +14,6 @@ def total_salary(path):
         print(f"Сталася помилка: {e}")
 
 # Приклад використання коду:
-total, average = total_salary("sal.txt")
+total, average = total_salary("HW1/sal.txt")
 if total is not None and average is not None:
     print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
