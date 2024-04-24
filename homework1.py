@@ -13,7 +13,7 @@ def total_salary(path):
     except Exception as e:
         print(f"Сталася помилка: {e}")
 
-# Приклад використання:
+# Приклад використання коду:
 total, average = total_salary("sal.txt")
 if total is not None and average is not None:
     print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
