@@ -20,6 +20,6 @@ def get_cats_info(path):
         return None  
 
 # Приклад використання:
-cats_info = get_cats_info("HW2/cats.txt")
+cats_info = get_cats_info("MODUL4/HW2/cats.txt")
 if cats_info is not None:
     print(cats_info)
